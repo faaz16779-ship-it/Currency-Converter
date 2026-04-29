@@ -1,0 +1,97 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+pythonenv*
+
+# Установочные файлы
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Виртуальные окружения
+virtualenv/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+*.sublime-workspace
+*.sublime-project
+
+# Редакторы
+*.bak
+*.orig
+*.tmp
+
+# Операционная система
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Файлы проекта
+history.json
+*.log
+error.log
+debug.log
+
+# Конфиденциальные данные
+.env
+.env.local
+.env.*.local
+config.ini
+credentials.json
+secrets.py
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Тестирование
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+nosetests.xml
+coverage.xml
+
+# Временные файлы
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Данные для разработки
+dev_data/
+test_data/
+
+# Документация (если генерируется автоматически)
+docs/_build/
+site/
+
+# Специфичные для проекта
+api_key.txt
+my_api_key.txt
+*.key
